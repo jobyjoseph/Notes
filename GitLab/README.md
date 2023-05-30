@@ -1,3 +1,7 @@
 # Gitlab
 
-1. Create and run your first GitLab CI/CD pipeline
+## Print gitlab user in console
+
+```bash
+echo "Hello, $GITLAB_USER_LOGIN!"
+```
