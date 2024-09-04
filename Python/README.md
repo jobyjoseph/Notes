@@ -1,6 +1,6 @@
 # Python
 
-`python3 --version` to check python version
+Check python version: `python3 --version`
 
 ## Variables
 Variable declaration: `x=12`
