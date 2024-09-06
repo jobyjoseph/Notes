@@ -47,3 +47,11 @@ f strings:
 name = "Joby"
 f"My name is {name}"
 ```
+
+### Functions
+
+A simple function:
+```python
+def foo():
+  print("hello")
+```
