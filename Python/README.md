@@ -28,4 +28,22 @@ Zero float: `x=0.0`
 
 Complex number: `x=42j`
 
-### Operations
+### Strings
+`'hello'` and `"hello"` are valid strings
+
+Concatenate two strings: `"I am " + "Joby"`
+
+long strings with multiline:
+```python
+long_string = """
+I am
+very
+hungry
+"""
+```
+
+f strings:
+```python
+name = "Joby"
+f"My name is {name}"
+```
