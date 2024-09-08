@@ -50,8 +50,14 @@ f"My name is {name}"
 
 ### Functions
 
-A simple function:
+Function definition:
 ```python
 def foo():
   print("hello")
+```
+
+A function that returns a value:
+```python
+def foo():
+  return "hello"
 ```
