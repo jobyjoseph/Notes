@@ -61,3 +61,10 @@ A function that returns a value:
 def foo():
   return "hello"
 ```
+
+A function with arguments:
+```python
+def add_numbers(x, y):
+  return x + y;
+```
+```
