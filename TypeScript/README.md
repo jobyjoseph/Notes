@@ -83,6 +83,7 @@ hello.ts:1:17 - error TS7006: Parameter 'b' implicitly has an 'any' type.
                   ~
 ```
 
+Next: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#functions
 
 ## References
 - [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
