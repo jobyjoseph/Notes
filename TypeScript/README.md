@@ -69,8 +69,19 @@ function sum(a, b) {
 }
 ```
 `tsc hello.ts` works fine.
+
 `tsc --noImplicitAny hello.ts` throws error.
-![noimplicitany](assets/noimplicityany.png)
+```shell
+hello.ts:1:14 - error TS7006: Parameter 'a' implicitly has an 'any' type.
+
+1 function sum(a, b) {
+               ~
+
+hello.ts:1:17 - error TS7006: Parameter 'b' implicitly has an 'any' type.
+
+1 function sum(a, b) {
+                  ~
+```
 
 
 ## References
