@@ -13,11 +13,64 @@ tsc --noEmitOnError hello.ts
 
 ## Implicit types
 TypeScript can even just infer (or “figure out”) the types for us even if we omit them. 
-```
+```typescript
 let name = "Joby"; // TypeScript infers the type of `name` as string
 ```
 
-Next: https://www.typescriptlang.org/docs/handbook/2/basic-types.html#downleveling
+## Target ES version
+Source code:
+```typescript
+// hello.ts
+const sum = (a, b) => a + b;
+```
+`tsc hello.ts` gives:
+```javascript
+// hello.js
+var sum = function (a, b) { return a + b; };
+```
+`tsc --target es2015 hello.ts` gives:
+```javascript
+// hello.js
+const sum = (a, b) => a + b;
+```
+
+## Types
+
+### string
+```typescript
+let product: string = "car";
+```
+
+### number
+```typescript
+let age: number = 23;
+```
+
+### boolean
+```typescript
+let isDev: boolean = false;
+```
+
+### Arrays
+A number array:
+```typescript
+let numArray: number[] = [1, 2, 3]; // one way
+let numArray: Array<number> = [1, 2, 3] // another way
+```
+
+### any
+`any` type is used when we do not know the type.
+
+`noImplicitAny` flag is used to throw error for any implicit any type.
+```typescript
+// hello.ts
+function sum(a, b) {
+    return a + b;
+}
+```
+`tsc hello.ts` works fine.
+`tsc --noImplicitAny hello.ts` throws error.
+![noimplicitany](assets/noimplicityany.png)
 
 
 ## References
