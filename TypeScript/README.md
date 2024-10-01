@@ -83,7 +83,50 @@ hello.ts:1:17 - error TS7006: Parameter 'b' implicitly has an 'any' type.
                   ~
 ```
 
-Next: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#functions
+### functions
+TypeScript allows you to specify the types of both the input and output values of functions.
+```typescript
+function sum(a: number, b: number): number {
+  return a + b;
+}
+```
+
+If the function returns a promise, the return type is set using `Promise` and the type of data the promise resolves.
+```typescript
+async function myPromise(): Promise<string> {
+    return 'my promise'
+}
+```
+
+### object
+An object type with `name` and `age` properties:
+```typescript
+const obj: { name: string; age: number } = {
+  name: "John",
+  age: 30,
+};
+```
+
+Making `age` optional:
+```typescript
+const obj: { name: string; age?: number } = {
+  name: "John",
+};
+```
+
+Always check if a value is present for optional properties.
+
+## Union Types
+
+A union type is a type formed from two or more other types.
+
+`id` can be a string or number:
+```typescript
+const id: number | string = 5;
+```
+`number` and `string` are called union members.
+
+When using union, ensure the type before using its methods.
 
 ## References
 - [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
