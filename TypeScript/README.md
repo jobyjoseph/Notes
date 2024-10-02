@@ -128,5 +128,16 @@ const id: number | string = 5;
 
 When using union, ensure the type before using its methods.
 
+## Type Alias
+
+Example of a type alias:
+```typescript
+type Point = {
+    x: number;
+    y: number;
+}
+```
+Type alias can be reused.
+
 ## References
 - [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
