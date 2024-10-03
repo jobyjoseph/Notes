@@ -137,7 +137,7 @@ type Point = {
     y: number;
 }
 ```
-Type alias can be reused.
+Type alias can be reused. It can be exported.
 
 ## References
 - [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
