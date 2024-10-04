@@ -139,5 +139,11 @@ type Point = {
 ```
 Type alias can be reused. It can be exported.
 
+## Interfaces
+
+An interface declaration is another way to name an object type.
+
+
+
 ## References
 - [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
