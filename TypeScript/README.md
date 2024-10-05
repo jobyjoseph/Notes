@@ -143,8 +143,39 @@ Type alias can be reused. It can be exported.
 
 An interface declaration is another way to name an object type.
 
-Next: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces
+### Extending interface
 
+```typescript
+interface Animal {
+  name: string;
+}
+
+interface Bear extends Animal {
+  honey: boolean;
+}
+
+const bear = getBear();
+bear.name;
+bear.honey;
+```
+
+### Extending type
+
+```typescript
+type Animal = {
+  name: string;
+}
+
+type Bear = Animal & { 
+  honey: boolean;
+}
+
+const bear = getBear();
+bear.name;
+bear.honey;
+```
+
+Next: more on https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces
 
 
 ## References
