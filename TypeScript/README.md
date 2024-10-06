@@ -175,7 +175,11 @@ bear.name;
 bear.honey;
 ```
 
-Next: more on https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces
+### Adding new fields
+
+An interface can add new fields to it.
+
+A type cannot add new fields to it.
 
 
 ## References
