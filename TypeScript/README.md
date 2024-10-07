@@ -181,6 +181,19 @@ An interface can add new fields to it.
 
 A type cannot add new fields to it. A type cannot be changed after being created
 
+## Type Assertions
+
+`document.getElementById("main_canvas")` returns a `HTMLElement` type. The return type can be asserted as `HTMLCanvasElement` to use canvas specific properties and methods in code.
+
+```typescript
+const myCanvas = document.getElementById("main_canvas") as HTMLCanvasElement;
+```
+
+Here is a different syntax for Type Assertion:
+```typescript
+const myCanvas = <HTMLCanvasElement>document.getElementById("main_canvas");
+```
+
 
 ## References
 - [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
