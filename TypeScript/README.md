@@ -179,7 +179,7 @@ bear.honey;
 
 An interface can add new fields to it.
 
-A type cannot add new fields to it.
+A type cannot add new fields to it. A type cannot be changed after being created
 
 
 ## References
