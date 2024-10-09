@@ -206,7 +206,15 @@ Typescript sets the type of `age` as `number` by reading its value.
 const age = 30
 ```
 
-Since it is `const`, TypeScript assigns the type as `30` that cannot be changed.
+Since it is `const`, TypeScript assigns the type as `30` that cannot be changed. `30` is called literal type.
+
+### Setting an enum
+
+```typescript
+let align: "left" | "right" | "center";
+```
+
+Next: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-inference
 
 ## References
 - [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
