@@ -194,6 +194,19 @@ Here is a different syntax for Type Assertion:
 const myCanvas = <HTMLCanvasElement>document.getElementById("main_canvas");
 ```
 
+## Literal types
+
+```typescript
+let age = 30;
+```
+
+Typescript sets the type of `age` as `number` by reading its value.
+
+```typescript
+const age = 30
+```
+
+Since it is `const`, TypeScript assigns the type as `30` that cannot be changed.
 
 ## References
 - [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
