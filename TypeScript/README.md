@@ -216,5 +216,16 @@ let align: "left" | "right" | "center";
 
 Next: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-inference
 
+## null and undefined
+
+To mark a variable that does not have `null` or `undefined`, use `!`.
+
+```typescript
+function liveDangerously(x?: number | null) {
+  // No error
+  console.log(x!.toFixed());
+}
+```
+
 ## References
 - [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
