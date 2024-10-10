@@ -46,6 +46,13 @@ let product: string = "car";
 let age: number = 23;
 ```
 
+### bigint
+```typescript
+const oneHundred: bigint = BigInt(100);
+
+const anotherHundred: bigint = 100n;
+```
+
 ### boolean
 ```typescript
 let isDev: boolean = false;
@@ -213,8 +220,6 @@ Since it is `const`, TypeScript assigns the type as `30` that cannot be changed.
 ```typescript
 let align: "left" | "right" | "center";
 ```
-
-Next: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-inference
 
 ## null and undefined
 
