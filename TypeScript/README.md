@@ -1,3 +1,5 @@
+Next: https://www.typescriptlang.org/docs/handbook/2/narrowing.html
+
 # TypeScript v5.6
 
 TypeScript is a tool that runs before your JS code runs (static) and ensures that the types of the program are correct (typechecked).
