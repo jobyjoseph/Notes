@@ -1,4 +1,4 @@
-Next: https://www.typescriptlang.org/docs/handbook/2/narrowing.html
+Next: https://www.typescriptlang.org/docs/handbook/2/narrowing.html noop
 
 # TypeScript v5.6
 
