@@ -1,4 +1,4 @@
-Next: https://www.typescriptlang.org/docs/handbook/2/narrowing.html noop
+Next: https://www.typescriptlang.org/docs/handbook/2/narrowing.html
 
 # TypeScript v5.6
 
@@ -231,6 +231,15 @@ To mark a variable that does not have `null` or `undefined`, use `!`.
 function liveDangerously(x?: number | null) {
   // No error
   console.log(x!.toFixed());
+}
+```
+
+## Narrowing
+
+Narrowing type to `number` before performing a logic:
+```typescript
+if(typeof age == "number"){
+    // do something
 }
 ```
 
