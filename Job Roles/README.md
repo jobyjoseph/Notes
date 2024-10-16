@@ -19,3 +19,9 @@ Strong defaults should be set. Like best practices in team and code. It helps de
    - Security: integrity of data and communication on the site
    - Identity management
    - Authenticity: the content on the app is credible
+4. Findable:
+   - Discoverability: how good can search engines see the pages
+5. Desirable:
+   - Visual experience: pages are visually appealing
+6. Valuable:
+   - Functionality: content, functions, and use cases that provide value to the user
