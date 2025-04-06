@@ -161,3 +161,65 @@ Attributes are key-value pairs that define a tag. Based on the tag, the supporte
 Classes are specific attributes that apply styles to tags.
 
 IDs are unique in a page. IDs can be used to put a link to particular part of the page.
+
+### Organizing HTML
+
+To wrap a set of html that forms a small unit of information(a facebook post, a tweet), we can use `<article>`
+
+A large portion of web page can be grouped using `<section>` tag.
+
+There is no difference between `div`, `article` and `section` functionally.
+
+Navbar can be wrapped inside `nav` tag.
+
+Class names are case insensitive. It is good to use complete small cases and seperated by dashes(`-`)
+
+### Head and Meta tags
+
+Put `<!DOCTYPE html>` as the first line in html pages to tell browser that you are using HTML5.
+
+`<meta charset="UTF-8" />` tells the browser the language code to be used for rendering the characters.
+
+Viewport meta tags tells browsers how to handle narrow screens like phones.
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+```
+
+Above code tells browser that, do not handle mobile screens for me. I have handled it. Otherwise, browsers will zoom out the full desktop site and show the mini desktop site to user.
+
+Title added using:
+
+```html
+<title>My blog</title>
+```
+
+Barebone skeleton of a web page:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Super Cool Blog</title>
+  </head>
+  <body></body>
+</html>
+```
+
+## CSS
+
+CSS is based on rules. Here is an example of a rule.
+
+```css
+h1 {
+  color: red;
+}
+```
+
+`h1` is the selector.
+
+`color` is the property.
+
+`red` is the value.
