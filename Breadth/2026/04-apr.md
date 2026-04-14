@@ -6,4 +6,4 @@
 | 2       | 04/13/2026 | Xcode install debug | 30 min   |
 
 Next: https://litmus7.udemy.com/course/ios-13-app-development-bootcamp/learn/lecture/16250920#overview
-SDD: https://www.youtube.com/watch?v=tndzLznxq40
+SDD: https://www.youtube.com/watch?v=_UZ1ngy-kOI
